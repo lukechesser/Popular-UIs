@@ -82,6 +82,36 @@
       display: block;
     }
 
+    @media only screen and (min-width: 481px) and (max-width: 900px) {
+
+      .container {
+        height: 650px;
+      }
+
+      .full-width {
+        width: 85%;
+      }
+
+      .entry {
+        padding-top: 25%;
+      }
+    }
+
+    @media only screen and (max-width: 480px) {
+
+      .container {
+        height: 450px;
+      }
+
+      .full-width {
+        width: 80%;
+      }
+
+      .entry {
+        padding-top: 15%;
+      }
+    }
+
     /* General Styles */
 
     a {
@@ -141,16 +171,54 @@
 
     .footer p {
       margin: 0;
+      font-size: 16px;
       line-height: 2.0em;
     }
 
     .footer h3 {
       margin: 0;
+      margin-bottom: 4px;
+      font-size: 18px;
       text-decoration: underline;
     }
 
     .footer .social {
       margin-top: 20px;
+    }
+
+    @media only screen and (min-width: 481px) and (max-width: 900px) {
+      .overflow-image {
+        width: 80%;
+      }
+
+      .footer .entry {
+        padding: 0;
+      }
+    }
+
+    @media only screen and (max-width: 480px) {
+
+      h1 {
+        font-size: 2.0em;
+      }
+
+      .footer p {
+        font-size: 14px;
+      }
+
+      .footer h3 {
+        font-size: 16px;
+      }
+
+      .overflow-image {
+        margin-left: -10%;
+        width: 100%;
+        bottom: -40px;
+      }
+
+      .footer .entry {
+        padding: 0;
+      }
     }
   </style>
 </head>
@@ -171,7 +239,7 @@
     <div class="full-width">
       <div class="entry">
         <h3>Popular UIs</h3>
-        <p>Free popular web UIs reproduced exactly in Photoshop for educational purposes. More to follow soon! If you'd like to contribute, feel free to <a href="#" title="Submit a pull-request on Github to contribute!">submit a pull-request on Github</a> or <a href="mailto:luke.chesser@me.com">email me</a>.</p>
+        <p>Free popular web UIs reproduced exactly in Photoshop for educational purposes. More to follow soon! If you'd like to contribute, feel free to <a href="https://github.com/lukechesser/Popular-UIs" title="Submit a pull-request on Github to contribute!">submit a pull-request on Github</a> or <a href="mailto:luke.chesser@me.com">email me</a>.</p>
         <div class="social">
           <a href="https://twitter.com/share" class="twitter-share-button" data-via="lukechesser" data-lang="en" data-text="Facebook UI — a free PSD of the new Facebook newsfeed redesign" data-size="large" data-count="none">Tweet</a>
           <a href="https://twitter.com/lukechesser" class="twitter-follow-button" data-show-count="false" data-size="large" data-lang="en">Follow @lukechesser</a>
