@@ -4,7 +4,7 @@
 
 Free PSDs of popular web interfaces.
 
-- [Facebook 2013 Newsfeed](http://lukechesser.github.io/Popular-UIs/Facebook-UI.psd)
+- [Facebook 2013 Newsfeed](http://lukechesser.github.io/Popular-UIs/PSDs/Facebook-UI.psd)
 
 ## License
 

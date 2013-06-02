@@ -1,8 +1,14 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <title>Facebook UI | Free PSD</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <title>Popular UIs | Free PSDs of popular Web Interfaces</title>
   <meta name="viewport" content="width=device-width">
+  <meta name="description" content="Free popular web UIs reproduced exactly in Photoshop for educational purposes."/>
+  <meta name="keywords" content="Free User Interface UI Photoshop PSD Newsfeed redesign popular web pixel">
+  <link rel="shortcut icon" href="favicon.png"/>
+  <link rel="shortcut icon" href="favicon.ico"/>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400,600,700' rel='stylesheet' type='text/css'>
   <style>
 
     /* Normalize */
@@ -43,7 +49,7 @@
     /* Layout */
 
     html, body {
-      font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Helvetica, Geneva, Verdana, sans-serif;
+      font-family: "Open Sans", sans-serif;
       background-color: #6888d8;
       width: 100%;
       height: 100%;
@@ -51,16 +57,29 @@
     }
 
     .container {
-      display:table;
+      position: relative;
       text-align: center;
       width: 100%;
-      height: 100%;
+      height: 800px;
+      overflow: hidden;
     }
 
-    .cell {
-      display:table-cell; 
-      vertical-align:middle;
-      width: 300px;
+    .container:first-of-type {
+      background-color: #6888d8;
+    }
+
+    .full-width {
+      width: 900px;
+      height: 100%;
+      margin: auto;
+    }
+
+    .entry {
+      padding-top: 200px;
+    }
+
+    .block {
+      display: block;
     }
 
     /* General Styles */
@@ -78,12 +97,13 @@
       font-size: 4em;
       margin-top: 0;
       margin-bottom: 20px;
+      text-align: center;
     }
 
     .btn {
       display: inline-block;
       background-color: #5879cd;
-      padding: 12px 12px;
+      padding: 12px 18px;
       font-size: 14px;
       font-weight: 600;
       border-radius: 3px;
@@ -93,34 +113,73 @@
       background-color: #4867a6;
     }
 
-    .tweet-button {
-      margin-top: 50px;
+    .overflow-image {
+      position: absolute;
+      height: 250px;
+      bottom: 0;
+      width: 900px;
+    }
+
+    .overflow-image img {
+      width: 100%;
     }
 
     .footer {
+      width: 100%;
+      padding: 100px 0;
+      background-color: #fff;
+      color: #777;
+    }
+
+    .footer a {
+      color: #6888d8;
+    }
+
+    .footer .entry {
+      padding: 0 150px;
+    }
+
+    .footer p {
+      margin: 0;
+      line-height: 2.0em;
+    }
+
+    .footer h3 {
+      margin: 0;
+      text-decoration: underline;
+    }
+
+    .footer .social {
       margin-top: 20px;
-      font-size: 12px;
     }
   </style>
 </head>
 <body>
   <div class="container">
-    <div class="cell">
-      <h1>Facebook UI</h1>
-
-      <div>
-        <a href="Facebook-UI.psd" class="btn">Download (~4.5MB)</a>
+    <div class="full-width">
+      <div class="entry">
+          <h1>Facebook UI</h1>
+          <a href="PSDs/Facebook-UI.psd" class="btn block">Download (~7.1MB)</a>
+      </div> <!-- close .entry -->
+      <div class="overflow-image">
+        <img src="img/FB-UI.png" alt="Facebook 2013 Newsfeed — Free PSD">
       </div>
-
-      <div class="tweet-button">
-        <a href="https://twitter.com/share" class="twitter-share-button" data-via="lukechesser" data-lang="en" data-text="Facebook UI — a free PSD of the new Facebook newsfeed redesign" data-size="large" data-count="none">Tweet</a>
-        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-      </div>
-
-      <p class="footer">made by <strong><a href="http://dribbble.com/lukechesser" target="_blank" title="Follow me on Dribbble!">@lukechesser</a></strong>.</p>
-    </div> <!-- close .cell -->
-
+    </div> <!-- close .full-width -->
   </div> <!-- close .container -->
+
+  <div class="footer">
+    <div class="full-width">
+      <div class="entry">
+        <h3>Popular UIs</h3>
+        <p>Free popular web UIs reproduced exactly in Photoshop for educational purposes. More to follow soon! If you'd like to contribute, feel free to <a href="#" title="Submit a pull-request on Github to contribute!">submit a pull-request on Github</a> or <a href="mailto:luke.chesser@me.com">email me</a>.</p>
+        <div class="social">
+          <a href="https://twitter.com/share" class="twitter-share-button" data-via="lukechesser" data-lang="en" data-text="Facebook UI — a free PSD of the new Facebook newsfeed redesign" data-size="large" data-count="none">Tweet</a>
+          <a href="https://twitter.com/lukechesser" class="twitter-follow-button" data-show-count="false" data-size="large" data-lang="en">Follow @lukechesser</a>
+          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+        </div>
+      </div> <!-- close .entry -->
+    </div> <!-- close .full-width -->
+  </div> <!-- close .footer -->
 
   <script type="text/javascript">
   var analytics=analytics||[];(function(){var e=["identify","track","trackLink","trackForm","trackClick","trackSubmit","page","pageview","ab","alias","ready","group"],t=function(e){return function(){analytics.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var n=0;n<e.length;n++)analytics[e[n]]=t(e[n])})(),analytics.load=function(e){var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.src=("https:"===document.location.protocol?"https://":"http://")+"d2dq2ahtl5zl1z.cloudfront.net/analytics.js/v1/"+e+"/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n)};
