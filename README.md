@@ -4,7 +4,7 @@
 
 Free PSDs of popular web interfaces for educational purposes.
 
-- [Facebook 2013 Profile](http://imlk.me/ZFWC08)
+- [Facebook 2013 Timeline](http://imlk.me/ZFWC08)
 - [Apple Bento Box](http://imlk.me/10SQ7lQ)
 
 If you want to contribute an interface, please submit a pull-request or [email me directly](mailto:luke@ooomf.com).
