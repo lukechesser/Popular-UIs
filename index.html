@@ -58,6 +58,39 @@
         border: 0;
     }
 
+    button,
+    input,
+    select,
+    textarea {
+        font-family: inherit;
+        font-size: 100%;
+        margin: 0;
+    }
+
+    button,
+    input {
+        line-height: normal;
+    }
+
+    button,
+    select {
+        text-transform: none;
+    }
+
+    button,
+    html input[type="button"],
+    input[type="reset"],
+    input[type="submit"] {
+        -webkit-appearance: button;
+        cursor: pointer;
+    }
+
+    button::-moz-focus-inner,
+    input::-moz-focus-inner {
+        border: 0;
+        padding: 0;
+    }
+
     /* Layout */
 
     html, body {
@@ -144,6 +177,7 @@
       font-size: 14px;
       font-weight: 600;
       border-radius: 3px;
+      border: none;
     }
 
     .btn-apple {
@@ -206,6 +240,25 @@
       margin-top: 20px;
     }
 
+    .footer .email-signup {
+      margin-top: 10px;
+    }
+
+    input:not([type="submit"]) {
+      padding: 10px 18px;
+      box-sizing: border-box;
+      font-size: 14px;
+      width:450px;
+      border-radius: 3px;
+      border: 2px solid #777;
+      margin-bottom: 0;
+    }
+
+    input:not([type="submit"]):focus {
+      border-color: #6888d8;
+      outline: 0;
+    }
+
     @media only screen and (min-width: 481px) and (max-width: 900px) {
       
       h1 {
@@ -218,6 +271,10 @@
 
       .footer .entry {
         padding: 0;
+      }
+
+      input:not([type="submit"]) {
+        width: 250px;
       }
     }
 
@@ -235,6 +292,15 @@
         font-size: 16px;
       }
 
+      input:not([type="submit"]) {
+        width: 100%;
+        margin-bottom: 5px;
+      }
+
+      input[type="submit"] {
+        width: 100%;
+      }
+
       .overflow-image {
         margin-left: -10%;
         width: 100%;
@@ -245,7 +311,9 @@
         padding: 0;
       }
     }
+
   </style>
+  <!-- <link href="http://cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css"> -->
 </head>
 <body>
   <div class="container">
@@ -276,12 +344,20 @@
     <div class="full-width">
       <div class="entry">
         <h3>Popular UIs</h3>
-        <p>Free popular web UIs reproduced exactly in Photoshop for educational purposes. More to follow soon! If you'd like to contribute, feel free to <a href="https://github.com/lukechesser/Popular-UIs" title="Submit a pull-request on Github to contribute!">submit a pull-request on Github</a> or <a href="mailto:luke@ooomf.com">email me directly</a>.</p>
+        <p>Free popular web UIs reproduced exactly in Photoshop for educational purposes. More to follow soon, so subscribe below to be notified when new UIs are released! If you'd like to contribute, feel free to <a href="https://github.com/lukechesser/Popular-UIs" title="Submit a pull-request on Github to contribute!">submit a pull-request on Github</a> or <a href="mailto:luke@ooomf.com">email me directly</a>.</p>
+
+        <div class="email-signup" id="mc_embed_signup">
+            <form action="http://github.us7.list-manage1.com/subscribe/post?u=a5dd0416be24c117dded12e21&amp;id=3307d5da45" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+              <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Your Email Address" required>
+              <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-fb">
+            </form>
+        </div> <!-- close .email-signup -->
+
         <div class="social">
           <a href="https://twitter.com/share" class="twitter-share-button" data-via="lukechesser" data-lang="en" data-text="Popular UIs: free popular web UIs reproduced exactly in Photoshop" data-size="large" data-count="none">Tweet</a>
           <a href="https://twitter.com/lukechesser" class="twitter-follow-button" data-show-count="false" data-size="large" data-lang="en">Follow @lukechesser</a>
           <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-        </div>
+        </div> <!-- close .social -->
       </div> <!-- close .entry -->
     </div> <!-- close .full-width -->
   </div> <!-- close .footer -->
