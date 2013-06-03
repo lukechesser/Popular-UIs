@@ -6,7 +6,7 @@
   
   <meta name="viewport" content="width=device-width">
   <meta name="description" content="Free popular web UIs reproduced exactly in Photoshop for educational purposes."/>
-  <meta name="keywords" content="Free User Interface UI Photoshop PSD Newsfeed redesign popular web pixel">
+  <meta name="keywords" content="Free User Interface UI Photoshop PSD Profile 2013 redesign popular apple bento box store web pixel">
   
   <link rel="shortcut icon" href="favicon.png"/>
   <link rel="shortcut icon" href="favicon.ico"/>
@@ -29,6 +29,10 @@
 
     body {
         margin: 0;
+    }
+
+    a, a:hover {
+      text-decoration: none;
     }
 
     a:focus {
@@ -72,8 +76,14 @@
       overflow: hidden;
     }
 
-    .container:first-of-type {
+    .container:nth-of-type(1) {
+      background-color: #fff;
+      color: #000;
+    }
+
+    .container:nth-of-type(2) {
       background-color: #6888d8;
+      color: #fff;
     }
 
     .full-width {
@@ -84,10 +94,6 @@
 
     .entry {
       padding-top: 200px;
-    }
-
-    .block {
-      display: block;
     }
 
     @media only screen and (min-width: 481px) and (max-width: 900px) {
@@ -122,17 +128,9 @@
 
     /* General Styles */
 
-    a {
-      color: #fff;
-      text-decoration: none;
-    }
-
-    a:hover {
-      text-decoration: none;
-    }
-
     h1 {
       font-size: 4em;
+      line-height: 1.3em;
       margin-top: 0;
       margin-bottom: 20px;
       text-align: center;
@@ -140,14 +138,27 @@
 
     .btn {
       display: inline-block;
-      background-color: #5879cd;
+      color: #fff;
+      background-color: #000;
       padding: 12px 18px;
       font-size: 14px;
       font-weight: 600;
       border-radius: 3px;
     }
 
-    .btn:hover {
+    .btn-apple {
+      background-color: #acacac;
+    }
+
+    .btn-apple:hover {
+      background-color: #888;
+    }
+
+    .btn-fb {
+      background-color: #5879cd;
+    }
+
+    .btn-fb:hover {
       background-color: #4867a6;
     }
 
@@ -184,6 +195,7 @@
     }
 
     .footer h3 {
+      color: #333;
       margin: 0;
       margin-bottom: 4px;
       font-size: 18px;
@@ -195,6 +207,11 @@
     }
 
     @media only screen and (min-width: 481px) and (max-width: 900px) {
+      
+      h1 {
+        font-size: 2.5em;
+      }
+
       .overflow-image {
         width: 80%;
       }
@@ -234,11 +251,23 @@
   <div class="container">
     <div class="full-width">
       <div class="entry">
-          <h1>Facebook UI</h1>
-          <a href="http://imlk.me/13xkwIs" class="btn block" title="Download the Facebook UI PSD for free!">Download (~7.1MB)</a>
+          <h1>Apple Bento Box UI</h1>
+          <a href="http://imlk.me/10SQ7lQ" class="btn btn-apple" title="Download the Apple Bento Box UI PSD for free!">Download (~4.5MB)</a>
       </div> <!-- close .entry -->
       <div class="overflow-image">
-        <img src="img/FB-UI.png" alt="Facebook 2013 Newsfeed — Free PSD">
+        <img src="img/bento-box-ui.png" alt="Apple Bento Box UI — Free PSD">
+      </div>
+    </div> <!-- close .full-width -->
+  </div> <!-- close .container -->
+
+  <div class="container">
+    <div class="full-width">
+      <div class="entry">
+          <h1>Facebook Profile UI</h1>
+          <a href="http://imlk.me/ZFWC08" class="btn btn-fb" title="Download the Facebook UI PSD for free!">Download (~7.7MB)</a>
+      </div> <!-- close .entry -->
+      <div class="overflow-image">
+        <img src="img/fb-ui.png" alt="Facebook 2013 Profile — Free PSD">
       </div>
     </div> <!-- close .full-width -->
   </div> <!-- close .container -->
@@ -247,9 +276,9 @@
     <div class="full-width">
       <div class="entry">
         <h3>Popular UIs</h3>
-        <p>Free popular web UIs reproduced exactly in Photoshop for educational purposes. More to follow soon! If you'd like to contribute, feel free to <a href="https://github.com/lukechesser/Popular-UIs" title="Submit a pull-request on Github to contribute!">submit a pull-request on Github</a> or <a href="mailto:luke.chesser@me.com">email me</a>.</p>
+        <p>Free popular web UIs reproduced exactly in Photoshop for educational purposes. More to follow soon! If you'd like to contribute, feel free to <a href="https://github.com/lukechesser/Popular-UIs" title="Submit a pull-request on Github to contribute!">submit a pull-request on Github</a> or <a href="mailto:luke@ooomf.com">email me directly</a>.</p>
         <div class="social">
-          <a href="https://twitter.com/share" class="twitter-share-button" data-via="lukechesser" data-lang="en" data-text="Facebook UI — a free PSD of the new Facebook newsfeed redesign" data-size="large" data-count="none">Tweet</a>
+          <a href="https://twitter.com/share" class="twitter-share-button" data-via="lukechesser" data-lang="en" data-text="Popular UIs: free popular web UIs reproduced exactly in Photoshop" data-size="large" data-count="none">Tweet</a>
           <a href="https://twitter.com/lukechesser" class="twitter-follow-button" data-show-count="false" data-size="large" data-lang="en">Follow @lukechesser</a>
           <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
         </div>
