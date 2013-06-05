@@ -17,5 +17,5 @@ Do whatever you want with them. Just don't redistribute them as your own, please
 <hr>
 
 ## Contributors
-[Luke Chesser](https://github.com/lukechesser)
-[Spencer Baynton](https://github.com/spencerbaynton)
+- Luke Chesser ([Dribbble](http://dribbble.com/lukechesser), [Twitter](https://twitter.com/lukechesser), [Github](https://github.com/lukechesser), [Blog](http://imluke.me/))
+- Spencer Baynton ([Github](https://github.com/spencerbaynton))
