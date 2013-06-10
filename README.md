@@ -4,15 +4,16 @@
 
 Free PSDs of popular web interfaces for educational purposes.
 
-- [Facebook 2013 Timeline](http://imlk.me/16DQ7hr) by [Luke Chesser](https://github.com/lukechesser)
-- [Apple Bento Box](http://imlk.me/12pGQbn) by [Luke Chesser](https://github.com/lukechesser)
-- [Designer News](http://imlk.me/13kcy6L) by [Spencer Baynton](https://github.com/spencerbaynton)
+- [Facebook 2013 Timeline UI](http://imlk.me/16DQ7hr) by [Luke Chesser](https://github.com/lukechesser)
+- [Apple Bento Box UI](http://imlk.me/12pGQbn) by [Luke Chesser](https://github.com/lukechesser)
+- [Designer News UI](http://imlk.me/13kcy6L) by [Spencer Baynton](https://github.com/spencerbaynton)
+- [GitHub UI](http://imlk.me/17B56Zb) by [Luke Chesser](https://github.com/lukechesser)
 
-If you want to contribute an interface, please submit a pull-request or [email me directly](mailto:luke@ooomf.com).
+More coming soon! If you want to contribute an interface, please submit a pull-request or [email me directly](mailto:luke@ooomf.com).
 
 ## License
 
-Do whatever you want with them. Just don't redistribute them as your own, please.
+[Do whatever you want with them](https://github.com/lukechesser/Popular-UIs/blob/gh-pages/LICENSE-MIT.md). Just don't redistribute them as your own, please.
 
 <hr>
 
