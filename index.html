@@ -483,5 +483,53 @@
   analytics.load("04j2pmkwhb");
   </script>
 
+  <script>
+    (function ($) {
+      var mainPage // master object
+        , c; // alias to cache
+      mainPage = {
+        cache: {
+          downloadFacebook: $('.facebook .btn'),
+          downloadApple: $('.apple .btn'),
+          downloadDesignerNews: $('.designer-news .btn'),
+          downloadGitHub: $('.github .btn'),
+          downloadHeroku: $('.heroku .btn'),
+          subscribe: $('#mc-embedded-subscribe'),
+          tweet: $('.twitter-share-button')
+        },
+
+        ready: function () {
+          c = mainPage.cache;
+          mainPage.initializeTrackingDownloads();
+        },
+
+        initializeTrackingDownloads: function () {
+          analytics.trackLink(c.downloadFacebook, 'Downloaded Resource', {
+            ui : 'Facebook Timeline UI'
+          });
+          analytics.trackLink(c.downloadApple, 'Downloaded Resource', {
+            ui : 'Apple Bento Box UI'
+          });
+          analytics.trackLink(c.downloadDesignerNews, 'Downloaded Resource', {
+            ui : 'Designer News UI'
+          });
+          analytics.trackLink(c.downloadGitHub, 'Downloaded Resource', {
+            ui : 'GitHub UI'
+          });
+          analytics.trackLink(c.downloadHeroku, 'Downloaded Resource', {
+            ui : 'Heroku UI'
+          });
+        },
+
+        initializeTrackingActions: function () {
+          analytics.trackLink(c.subscribe, 'New Subscriber');
+          analytics.trackLink(c.tweet, 'Page Tweeted');
+        }
+      }
+
+      mainPage.ready();
+    })(jQuery);
+  </script>
+
 </body>
 </html>
