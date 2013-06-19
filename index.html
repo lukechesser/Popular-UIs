@@ -495,8 +495,7 @@
           downloadDesignerNews: $('.designer-news .btn'),
           downloadGitHub: $('.github .btn'),
           downloadHeroku: $('.heroku .btn'),
-          subscribe: $('#mc-embedded-subscribe'),
-          tweet: $('.twitter-share-button')
+          subscribe: $('#mc-embedded-subscribe')
         },
 
         ready: function () {
@@ -525,7 +524,6 @@
 
         initializeTrackingActions: function () {
           analytics.trackLink(c.subscribe, 'New Subscriber');
-          analytics.trackLink(c.tweet, 'Page Tweeted');
         }
       }
 
