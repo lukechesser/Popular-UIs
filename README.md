@@ -9,6 +9,7 @@ Free PSDs of popular web interfaces for educational purposes.
 - [Designer News UI](http://imlk.me/13kcy6L) by [Spencer Baynton](https://github.com/spencerbaynton)
 - [GitHub Repository Next UI](http://imlk.me/17B56Zb) by [Luke Chesser](https://github.com/lukechesser)
 - [Heroku UI](http://imlk.me/11AKed4) by [Luke Chesser](https://github.com/lukechesser)
+- [Rdio UI](http://imlk.me/14L1Lnl) by [Luke Chesser](https://github.com/lukechesser)
 
 More coming soon! If you want to contribute an interface, please submit a pull-request or [email me directly](mailto:luke@ooomf.com).
 
