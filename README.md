@@ -10,13 +10,13 @@ Free PSDs of popular web interfaces for educational purposes.
 - [GitHub Repository Next UI](http://imlk.me/17B56Zb) by [Luke Chesser](https://github.com/lukechesser)
 - [Heroku UI](http://imlk.me/11AKed4) by [Luke Chesser](https://github.com/lukechesser)
 - [Rdio UI](http://imlk.me/14L1Lnl) by [Luke Chesser](https://github.com/lukechesser)
-- [MailChimp UI](http://imlk.me/15NgzjH) by [Luke Chesser](https://github.com/lukechesser)
+- [There once was an interface on here for MailChimp.](https://twitter.com/lukechesser/status/359431233651998721)
 
 More coming soon! If you want to contribute an interface, please submit a pull-request or [email me directly](mailto:luke@ooomf.com).
 
 ## License
 
-[Do whatever you want with them](https://github.com/lukechesser/Popular-UIs/blob/gh-pages/LICENSE-MIT.md). Just don't redistribute them as your own, please.
+[Do whatever you want with them](https://github.com/lukechesser/Popular-UIs/blob/gh-pages/LICENSE-MIT.md).
 
 <hr>
 
