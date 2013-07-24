@@ -4,19 +4,20 @@
 
 Free PSDs of popular web interfaces for educational purposes.
 
-- [Facebook Timeline UI](http://imlk.me/16DQ7hr) reproduced by [Luke Chesser](https://github.com/lukechesser)
-- [Apple Bento Box UI](http://imlk.me/12pGQbn) reproduced by [Luke Chesser](https://github.com/lukechesser)
-- [Designer News UI](http://imlk.me/13kcy6L) reproduced by [Spencer Baynton](https://github.com/spencerbaynton)
-- [GitHub Repository Next UI](http://imlk.me/17B56Zb) reproduced by [Luke Chesser](https://github.com/lukechesser)
-- [Heroku UI](http://imlk.me/11AKed4) reproduced by [Luke Chesser](https://github.com/lukechesser)
-- [Rdio UI](http://imlk.me/14L1Lnl) reproduced by [Luke Chesser](https://github.com/lukechesser)
-- [There once was an interface on here for MailChimp.](https://twitter.com/lukechesser/status/359431233651998721)
+- [Facebook Timeline UI](http://imlk.me/16DQ7hr)
+- [Apple Bento Box UI](http://imlk.me/12pGQbn)
+- [Designer News UI](http://imlk.me/13kcy6L)
+- [GitHub Repository Next UI](http://imlk.me/17B56Zb)
+- [Heroku UI](http://imlk.me/11AKed4)
+- [Rdio UI](http://imlk.me/14L1Lnl)
 
 More coming soon! If you want to contribute an interface, please submit a pull-request or [email me directly](mailto:luke@ooomf.com).
 
 ## License
 
-All work is copyright of the original respective creators. The intention of this repository is not copyright infringement, it is to provide novice designers with example resources.
+All work is copyright of the original respective creators. The intention of this repository is not copyright infringement, it is to provide novice designers with example resources. The resources are graciously provided by the original designers and companies; all logos, branding, and elements are trademarks of their respective companies.
+
+Please use these resources for educational purposes ONLY.
 
 If you would like for your company's UI to be removed; any icons, logos, or colours exchanged; [please email me directly](luke.chesser@me.com). It will immediately be removed.
 
