@@ -10,6 +10,7 @@ Free PSDs of popular web interfaces for educational purposes.
 - [GitHub Repository Next UI](http://imlk.me/17B56Zb)
 - [Heroku UI](http://imlk.me/11AKed4)
 - [Rdio UI](http://imlk.me/14L1Lnl)
+- [Disqus UI](http://imlk.me/13tDYFa)
 
 More coming soon! If you want to contribute an interface, please submit a pull-request or [email me directly](mailto:luke@ooomf.com).
 
@@ -24,5 +25,6 @@ If you would like for your company's UI to be removed; any icons, logos, or colo
 <hr>
 
 ## Contributors
-- Luke Chesser ([Dribbble](http://dribbble.com/lukechesser), [Twitter](https://twitter.com/lukechesser), [Github](https://github.com/lukechesser), [Blog](http://imluke.me/))
-- Spencer Baynton ([Github](https://github.com/spencerbaynton))
+- Luke Chesser ([Dribbble](http://dribbble.com/lukechesser), [Twitter](https://twitter.com/lukechesser), [GitHub](https://github.com/lukechesser), [Blog](http://imluke.me/))
+- Spencer Baynton ([GitHub](https://github.com/spencerbaynton))
+- Liu Jin ([GitHub](https://github.com/coolzilj), [Blog](http://liujin.me/blog/))
