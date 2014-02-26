@@ -13,6 +13,7 @@ Free PSDs of popular web interfaces for educational purposes.
 - [Disqus UI](http://imlk.me/13tDYFa)
 - [Google+ UI](http://imlk.me/165XyL3)
 - [Google Maps UI](http://imlk.me/1gSUXfc)
+- [Pinterest UI](http://imlk.me/1cQOUVp)
 
 More coming soon! If you want to contribute an interface, please submit a pull-request or [email me directly](mailto:luke@ooomf.com).
 
@@ -31,3 +32,4 @@ If you would like for your company's UI to be removed; any icons, logos, or colo
 - Spencer Baynton ([GitHub](https://github.com/spencerbaynton))
 - Liu Jin ([GitHub](https://github.com/coolzilj), [Blog](http://liujin.me/blog/))
 - Victor Soussan ([Portfolio](http://signaleticgeometric.fr/), [Twitter](https://twitter.com/victorsoussan), [Blog](http://signaletic.tumblr.com/))
+- TheCodeIsClear ([GitHub](https://github.com/thecodeisclear))

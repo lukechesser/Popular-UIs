@@ -109,6 +109,11 @@
       overflow: hidden;
     }
 
+    .pinterest {
+      background-color: #c72527;
+      color: #fff;
+    }
+
     .google-maps {
       background-color: #efebe2;
       color: #333333;
@@ -240,6 +245,15 @@
 
     .btn:hover {
       background-color: #4867a6;
+    }
+
+    .pinterest .btn {
+      background-color: #fff;
+      color: #575757;
+    }
+
+    .pinterest .btn:hover {
+      background-color: #f1f1f1;
     }
 
     .google-maps .btn {
@@ -453,6 +467,18 @@
   </style>
 </head>
 <body>
+  <div class="container pinterest">
+    <div class="full-width">
+      <div class="entry">
+          <h1>Pinterest UI</h1>
+          <a href="http://imlk.me/1cQOUVp" class="btn" title="Download the Pinterest UI PSD for free!">Download (~8.8MB)</a>
+      </div> <!-- close .entry -->
+      <div class="overflow-image">
+        <img src="img/pinterest-ui.png" alt="Pinterest UI — Free PSD">
+      </div>
+    </div> <!-- close .full-width -->
+  </div> <!-- close .container -->
+
   <div class="container google-maps">
     <div class="full-width">
       <div class="entry">
@@ -588,7 +614,7 @@
 
         <div class="social">
           <hr>
-          <p>Contributors: <a href="http://imluke.me/" target="_blank" title="View information about Luke Chesser">Luke Chesser (6)</a>, <a href="https://github.com/spencerbaynton" target="_blank" title="View information about Spencer Baynton">Spencer Baynton (1)</a>, <a href="https://github.com/coolzilj" target="_blank" title="View information about Liu Jin">Liu Jin (1)</a>, and <a href="http://signaletic.tumblr.com" target="_blank" title="View information about Victor Soussan">Victor Soussan (1)</a>.</p>
+          <p>Contributors: <a href="http://imluke.me/" target="_blank" title="View information about Luke Chesser">Luke Chesser (6)</a>, <a href="https://github.com/spencerbaynton" target="_blank" title="View information about Spencer Baynton">Spencer Baynton (1)</a>, <a href="https://github.com/coolzilj" target="_blank" title="View information about Liu Jin">Liu Jin (1)</a>, <a href="http://signaletic.tumblr.com" target="_blank" title="View information about Victor Soussan">Victor Soussan (1)</a>, and <a href="https://github.com/thecodeisclear" target="_blank" title="View more information about TheCodeIsClear">TheCodeIsClear</a>.</p>
         </div> <!-- close .social -->
       </div> <!-- close .entry -->
     </div> <!-- close .full-width -->
@@ -616,6 +642,7 @@
           downloadDisqus: $('.disqus .btn'),
           downloadGooglePlus: $('.google-plus .btn'),
           downloadGoogleMaps: $('.google-maps .btn'),
+          downloadPinterest: $('.pinterest .btn'),
           subscribe: $('#mc-embedded-subscribe')
         },
 
@@ -652,6 +679,9 @@
           });
           analytics.trackLink(c.downloadGoogleMaps, 'Downloaded Resource', {
             ui : 'Google Maps UI'
+          });
+          analytics.trackLink(c.downloadPinterest, 'Downloaded Resource', {
+            ui : 'Pinterest UI'
           });
         },
 
