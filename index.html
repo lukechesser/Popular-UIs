@@ -109,6 +109,11 @@
       overflow: hidden;
     }
 
+    .five-by {
+      background-color: #2E7DB1;
+      color: #fff;
+    }
+
     .pinterest {
       background-color: #c72527;
       color: #fff;
@@ -245,6 +250,15 @@
 
     .btn:hover {
       background-color: #4867a6;
+    }
+
+    .five-by .btn {
+      background-color: #6F808F;
+      color: #fff;
+    }
+
+    .five-by .btn:hover {
+      background-color: #667584;
     }
 
     .pinterest .btn {
@@ -479,6 +493,18 @@
     </div> <!-- close .full-width -->
   </div> <!-- close .container -->
 
+  <div class="container five-by">
+    <div class="full-width">
+      <div class="entry">
+          <h1>5by UI</h1>
+          <a href="http://imlk.me/1msKkxj" class="btn" title="Download the 5by UI PSD for free!">Download (~1.1MB)</a>
+      </div> <!-- close .entry -->
+      <div class="overflow-image">
+        <img src="img/5by-ui.png" alt="5by UI — Free PSD">
+      </div>
+    </div> <!-- close .full-width -->
+  </div> <!-- close .container -->
+
   <div class="container google-maps">
     <div class="full-width">
       <div class="entry">
@@ -603,7 +629,7 @@
             <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
           </div> <!-- close .pull-right -->
         </div> <!-- close .clearfix -->
-        <p>Free popular web UIs reproduced exactly in Photoshop for educational purposes. More created every week, so subscribe below to be notified when new UIs are released! If you'd like to contribute, feel free to <a href="https://github.com/lukechesser/Popular-UIs" title="Submit a pull-request on Github to contribute!">submit a pull-request on Github</a> or <a href="mailto:luke@ooomf.com">email me directly</a>.</p>
+        <p>Free popular web UIs reproduced exactly in Photoshop for educational purposes. More created every week, so subscribe below to be notified when new UIs are released! If you'd like to contribute, feel free to <a href="https://github.com/lukechesser/Popular-UIs" title="Submit a pull-request on Github to contribute!">submit a pull-request on Github</a> or <a href="mailto:luke@pickcrew.com">email me directly</a>.</p>
 
         <div class="email-signup" id="mc_embed_signup">
             <form action="http://github.us7.list-manage1.com/subscribe/post?u=a5dd0416be24c117dded12e21&amp;id=3307d5da45" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
@@ -614,7 +640,7 @@
 
         <div class="social">
           <hr>
-          <p>Contributors: <a href="http://imluke.me/" target="_blank" title="View information about Luke Chesser">Luke Chesser (6)</a>, <a href="https://github.com/spencerbaynton" target="_blank" title="View information about Spencer Baynton">Spencer Baynton (1)</a>, <a href="https://github.com/coolzilj" target="_blank" title="View information about Liu Jin">Liu Jin (1)</a>, <a href="http://signaletic.tumblr.com" target="_blank" title="View information about Victor Soussan">Victor Soussan (1)</a>, and <a href="https://github.com/thecodeisclear" target="_blank" title="View more information about TheCodeIsClear">TheCodeIsClear</a>.</p>
+          <p>Contributors: <a href="http://imluke.me/" target="_blank" title="View information about Luke Chesser">Luke Chesser (6)</a>, <a href="https://github.com/spencerbaynton" target="_blank" title="View information about Spencer Baynton">Spencer Baynton (1)</a>, <a href="https://github.com/coolzilj" target="_blank" title="View information about Liu Jin">Liu Jin (1)</a>, <a href="http://signaletic.tumblr.com" target="_blank" title="View information about Victor Soussan">Victor Soussan (1)</a>, and <a href="https://github.com/thecodeisclear" target="_blank" title="View more information about TheCodeIsClear">TheCodeIsClear (2)</a>.</p>
         </div> <!-- close .social -->
       </div> <!-- close .entry -->
     </div> <!-- close .full-width -->
@@ -643,13 +669,12 @@
           downloadGooglePlus: $('.google-plus .btn'),
           downloadGoogleMaps: $('.google-maps .btn'),
           downloadPinterest: $('.pinterest .btn'),
-          subscribe: $('#mc-embedded-subscribe')
+          downloadFiveBy: $('.five-by .btn'),
         },
 
         ready: function () {
           c = mainPage.cache;
           mainPage.initializeTrackingDownloads();
-          mainPage.initializeTrackingActions();
         },
 
         initializeTrackingDownloads: function () {
@@ -683,10 +708,9 @@
           analytics.trackLink(c.downloadPinterest, 'Downloaded Resource', {
             ui : 'Pinterest UI'
           });
-        },
-
-        initializeTrackingActions: function () {
-          analytics.trackLink(c.subscribe, 'New Subscriber');
+          analytics.trackLink(c.downloadFiveBy, 'Downloaded Resource', {
+            ui : '5by UI'
+          });
         }
       }
 
